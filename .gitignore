@@ -1,0 +1,45 @@
+# Ignore IntelliJ project files
+.idea/
+*.iml
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore the target or build directory (if applicable)
+/target/
+/out/
+
+
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
